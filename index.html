@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./img/icons/tarea.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Lista de tareas</title>
+
+</head>
+<body>
+    
+    
+    <section>
+        <nav>
+            <h1>
+                BIENVENIDO A LA LISTA DE TAREAS CON HTML, CSS Y JS
+            </h1>
+        </nav>
+        <form action="post" class="form-task">
+            <label id="label1" for="title">Nombre o titulo de la tarea</label>
+            <input id="input1" type="text" id="title" class="input-task">
+            <label id="label2" for="content"> Descripcion de la tarea </label>
+            <input id="input2" type="text" id="content" class="input-task">
+            <label id="label3" for="date-created">fecha de creación</label>
+            <input id="input3" type="datetime" disabled id="date-created" class="input-task">
+            <label id="label4" for="date-limit">Fecha limite</label>
+            <input id="input4" type="date" id="date-limit" class="input-task">
+            <input id="btn" type="submit" class="input-task btn">
+        </form>
+        <ul class="tasks-list">
+            <li class="task-item">
+                <div class="card">
+                    <h3>TITULO</h3> <img src="" alt="btnEliminarCard">
+                    <p>CONTENIDO</p>
+                    <p>FECHA LIMITE</p>
+                    <input type="radio" name="estado" id="estado">
+                </div>
+            </li>
+            <li class="task-item">
+                <div class="card">
+                    <h3>TITULO</h3> <img src="" alt="btnEliminarCard">
+                    <p>CONTENIDO</p>
+                    <p>FECHA LIMITE</p>
+                    <input type="radio" name="estado" id="estado">
+                </div>
+            </li>
+            <li class="task-item">
+                <div class="card">
+                    <h3>TITULO</h3> <img src="" alt="btnEliminarCard">
+                    <p>CONTENIDO</p>
+                    <p>FECHA LIMITE</p>
+                    <input type="radio" name="estado" id="estado">
+                </div>
+            </li>
+            <li class="task-item">
+                <div class="card">
+                    <h3>TITULO</h3> <img src="" alt="btnEliminarCard">
+                    <p>CONTENIDO</p>
+                    <p>FECHA LIMITE</p>
+                    <input type="radio" name="estado" id="estado">
+                </div>
+            </li>
+            <li class="task-item">
+                <div class="card">
+                    <h3>TITULO</h3> <img src="" alt="btnEliminarCard">
+                    <p>CONTENIDO</p>
+                    <p>FECHA LIMITE</p>
+                    <input type="radio" name="estado" id="estado">
+                </div>
+            </li>
+            <li class="task-item">
+                <div class="card">
+                    <h3>TITULO</h3> <img src="" alt="btnEliminarCard">
+                    <p>CONTENIDO</p>
+                    <p>FECHA LIMITE</p>
+                    <input type="radio" name="estado" id="estado">
+                </div>
+            </li>
+        </ul>
+    </section>
+<script src="./js/app.js"></script>
+</body>
+</html>
